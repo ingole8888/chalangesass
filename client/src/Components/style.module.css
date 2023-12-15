@@ -1,0 +1,95 @@
+.mainnavbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-bottom: 15px;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cardboximage {
+    width: 100%;
+    height: 70%;
+}
+
+.cardboxtitle {
+    font-size: xx-large;
+}
+
+.cardboxprice {
+    font-size: large;
+    font-weight: 600;
+
+}
+.cartcardbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.cartcardboximage {
+    width: 100%;
+    height: 70%;
+}
+
+.cartcardboxtitle {
+    font-size: xx-large;
+}
+
+.cartcardboxprice {
+    font-size: large;
+    font-weight: 600;
+
+}
+.cartcardqty{
+    display: flex;
+  
+}
+.cartcardbutton{
+    color: white;
+    background-color: #f6895f;
+}
+
+.paymentMain{
+  margin: auto;
+    padding: 25px;
+border: 1px solid red;
+    width: 30%;
+}
+
+.datamapbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.boxmap{
+    padding: 15px;
+    border-radius: 5px;
+    margin:15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+@media (max-width:900px) {
+    .cardbox {
+        height: 45vh;
+    }
+}
+
+@media (max-width:700px) {
+    .cardbox {
+        height: 35vh;
+    }
+}
+
+@media (max-width:500px) {
+    .cardbox {
+        height: 40vh;
+    }
+}
